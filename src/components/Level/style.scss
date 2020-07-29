@@ -1,0 +1,256 @@
+////////////   LEVEL 1 ///////////// 
+.level {
+  text-align: center;
+
+  &__congrtulation{
+    margin: 0.5em 0 0.5em 0;
+    font-size: 4.5em;
+  }
+
+  &__enonce {
+    font-size: 2.5em;
+    color: rgb(138, 0, 0);
+    font-weight: bold;
+  }
+
+  &__bebe {
+    margin: 0.7em auto;
+    width: 100px;
+    font-size: 8em;
+    color: blue;
+    transition: all 0s;
+    height: 180px;
+
+}
+
+
+  &__bebe:hover {
+    opacity: 0
+
+}
+
+  &__revelation {
+    cursor: pointer;
+
+  }
+}
+
+.flexbaby {
+  display: flex;
+}
+
+
+////////////   LEVEL 2 ///////////// 
+
+
+.singleInput {
+  margin: 3em 0 0 1em;
+  width: 30px;
+  height: 40px;
+  padding: 5px;
+  text-align: center;
+  font-size: 1.3em;
+  border: 1px solid black;
+  border-radius: 4px;
+  box-shadow:-1px 1px 7px 1px rgba(0, 0, 0, 0.4) inset; 
+}
+
+.singleInput:focus {
+  box-shadow:-1px 2px 7px 1px rgba(0, 0, 0, 0.7) inset; 
+}
+
+.divRevealed {
+  height: 4em;
+  width: 290px;
+  margin: 4em auto;
+}
+
+
+.revealedButton {
+  margin: 5em 0 ;
+  width: 250px;
+  height: 45px;
+  line-height: 2px;
+  padding: 9px 2em;
+  text-align: center;
+  font-size: 2em;
+  font-weight: bold;
+  border-radius: 60px;
+  border: 2px solid rgb(226, 226, 226);
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 0, 0);
+  box-shadow:-1px 1px 7px 1px rgb(31, 31, 31) inset;
+  border: 2px solid rgb(0, 0, 0);
+}
+
+.revealedButton:hover {
+  text-shadow: -2px 2px 1px rgb(255, 255, 255);
+} 
+
+.wrongMessage {
+  margin: 1.5em 0;
+
+}
+
+.h3 {
+  margin: 0 auto;
+  font-size: 5em;
+  text-shadow: 2px 2px 1px white;
+  width: 500px;
+}
+
+.submit {
+  margin: 0 2em;
+  width: 100px;
+  height: 30px;
+  border-radius: 5px ;
+  background-color: rgb(235, 235, 235);
+  border: 0.2;
+  box-shadow:-1px 1px 7px 1px rgba(0, 0, 0, 0.4) inset; 
+}
+
+.submit:hover {
+  box-shadow: 1px 1px 5px 1px inset;
+  border: 0;
+
+}
+
+///////////////LEVEL 3 /////////////////
+
+.numberWithBull {
+  margin: 1em 0;
+  font-size: 2.5em;
+  text-shadow: 1px 1px 1px white;
+}
+
+.resultGreen {
+  color: black;
+  
+  &__input {
+    margin-left: 0.5em;
+    color: black;
+    width: 50px;
+    height: 40px;
+    text-align: center;
+    font-size: 0.8em;
+    border: 1px solid black;
+    border-radius: 4px;
+    box-shadow:-1px 1px 7px 1px rgba(0, 0, 0, 0.4) inset; 
+    
+  }
+}
+
+
+/////////////////LEVEL 4 /////////////////
+
+.level{
+ &__enigmeCarre {
+  margin: 1.5em 0;
+ }
+
+ &__resultDiv {
+  margin: 1em 0;
+  width: 60px;
+  height: 50px;
+  padding: 5px;
+  text-align: center;
+  font-size: 1.3em;
+  border: 1px solid black;
+  border-radius: 4px;
+  box-shadow:-1px 1px 7px 1px rgba(0, 0, 0, 0.4) inset;
+ }
+
+ &__resultDiv:hover {
+  box-shadow:-1px 2px 7px 1px rgba(0, 0, 0, 0.7) inset; 
+  }
+
+  &__carreMagique {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 1em auto;
+    width: 270px;
+  }
+
+  &__inputCarreMagique {
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    font-size: 2.5em;
+    border: 1px solid rgb(83, 83, 83);
+    border-radius: 4px;
+    box-shadow:-1px 1px 7px 1px rgba(0, 0, 0, 0.4) inset;
+    margin: 10px 10px;
+  }
+
+  &__inputCarreMagique:hover {
+    box-shadow:-1px 2px 7px 1px rgba(0, 0, 0, 0.7) inset; 
+    }
+
+
+
+}
+
+.submitMagicCarre {
+  margin: 2em 0;
+  width: 180px;
+  height: 40px;
+  font-size: 1.2em;
+  border-radius: 5px ;
+  background-color: rgb(235, 235, 235);
+  border: 0.2;
+  box-shadow:-1px 1px 7px 1px rgba(0, 0, 0, 0.4) inset;
+
+}
+
+.submitMagicCarre:hover {
+  box-shadow:-1px 2px 7px 1px rgba(0, 0, 0, 0.7) inset; 
+  text-shadow: 1px 1px 1px black;
+}
+
+////////////////LEVEL 6 ///////////////////@
+
+.lockClose {
+  font-size: 5em;
+  margin-top: 0.5em;
+  }
+
+
+.crackCode {
+  display: flex;
+  justify-content: space-evenly;
+
+  &__clue {
+    margin: 3em 2em 2em 2em;
+    padding: 0.5em;
+    width: 250px;
+    height: 140px;
+    border: 1px solid black;
+    background-color: rgb(49, 49, 49);
+    border-radius: 9px;
+  }
+
+  &__displayNumber{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 1em 0 1em 0;
+  }
+
+  &__number {
+    background-color: #fff;
+    width: 30px;
+    height: 35px;
+    border-radius: 5px;
+    line-height: 35px;
+    border: 1px solid rgb(29, 29, 29);
+    box-shadow:-1px 2px 7px 1px rgba(0, 0, 0, 0.7) inset; 
+    font-size: 1.3em;
+}
+
+  &__text {
+    margin: 1em 0 0 0;
+    color: white;
+    word-wrap: break-word;
+  }
+
+}

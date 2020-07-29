@@ -1,0 +1,32 @@
+.nav {
+  display: flex;
+  justify-content: left;
+  height: 60px;
+  line-height: 60px;
+  box-shadow: 1em 1em 3em;
+
+  &__links {
+    margin: 0 2em;
+
+  }
+
+  &__link {
+    margin: 0 2em;
+    font-size: 2em;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px white;
+  }
+  &__link:hover {
+    color: rgb(138, 0, 0);
+    text-shadow: 1px 1px 1px black ;
+  }
+
+  // &__title {
+  //   font-size: 3em;
+
+  // }
+}
+
+.active {
+  color: rgb(138, 0, 0);
+}

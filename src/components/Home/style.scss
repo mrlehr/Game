@@ -1,0 +1,83 @@
+.font {
+  font-family: 'Metal Mania', sans-serif;
+}
+
+.color {
+  color: rgb(138, 0, 0);
+  text-shadow: 1px 1px 1px white ;
+}
+
+.margin {
+  margin-top: 1em;
+}
+
+// .active {
+//   color: green;
+// }
+
+.home {
+  text-align: center;
+  margin: 2em 0;
+
+    &__form {
+      display: flex;
+      flex-direction: column;
+    }
+
+    &__title {
+      font-size: 5em;
+      color: rgb(0, 0, 0);
+    }
+
+    &__message {
+      margin: 1em 0 0.5em 0;
+      font-size: 2em;
+      color: white;
+      text-shadow: 3px 3px 3px black ;
+    }
+
+    &__inputLabel {
+      margin: 1em 0 1em 0;
+      font-size: 2.5em;
+      text-shadow: 2px 2px 2px white ;
+      cursor: initial;
+    }
+
+    &__input {
+      width: 300px;
+      margin: 1em auto;
+      height: 2em;
+      border-radius: 15px;
+      box-shadow: 2px 2px 2px;
+      border: 0;
+      padding: 1em;
+      font-size: 1.2em;
+  }
+
+  &__pret {
+    margin: 2em 0 0 0;
+    font-size: 2em;
+    text-shadow: 2px 2px 2px gray ;
+  }
+
+  &__pret--gros {
+    font-weight: bold;
+    font-size: 1.6em;
+    margin: 0 0.2em;
+    color: rgb(138, 0, 0);
+    text-shadow: 1px 1px 1px black ;
+  }
+
+  &__revelation--button {
+    font-size: 5em;
+    font-weight: bold;
+    opacity: 0;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+  &__revelation--button:hover {
+    opacity: 1;
+  }
+}
+

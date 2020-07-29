@@ -1,0 +1,21 @@
+.niveau {
+  margin: 1em auto;
+  display: flex;
+  flex-direction: column; 
+
+
+ 
+ &__levelStyle {
+   height: 100%;
+   text-align: center;
+   margin: 0;
+   font-size: 3.5em;
+   text-shadow: 2px 2px 2px white;
+ }
+
+ &__levelStyle:hover {
+  color: rgb(126, 1, 1);
+  font-size: 3.45em;
+}
+
+}
